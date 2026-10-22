@@ -284,7 +284,6 @@ Page {
                 timelineModel.clearSelection()
             })
         }
-        onClearSelection: timelineModel.clearSelection()
         onDownload: {
             var selectedIds = timelineModel.getSelectedAssetIds()
             for (var i = 0; i < selectedIds.length; i++) {
