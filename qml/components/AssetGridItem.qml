@@ -9,6 +9,8 @@ BackgroundItem {
     property bool isFavorite
     property bool isSelected
     property bool isVideo
+    property bool isLocal: false
+    property string localPath: ""
     property int assetIndex: -1
     property string thumbhash: ""
     property string duration: ""
@@ -73,7 +75,9 @@ BackgroundItem {
         anchors.fill: parent
         anchors.margins: 2
         fillMode: Image.PreserveAspectCrop
-        source: assetId ? "image://immich/thumbnail/" + assetId : ""
+        source: isLocal
+            ? (localPath ? "image://localthumbnail/" + localPath : "")
+            : (assetId ? "image://immich/thumbnail/" + assetId : "")
         asynchronous: true
         smooth: false
         cache: true
