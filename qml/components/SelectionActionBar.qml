@@ -27,6 +27,8 @@ Item {
     property bool isTrashPage: false
     property bool isLockedFolderPage: false
     property bool hasSelectedOtherOwner: false
+    property bool selectionHasLocal: false
+    property bool selectionHasRemote: false
 
     signal addToFavorites()
     signal removeFromFavorites()
@@ -34,6 +36,7 @@ Item {
     signal addToAlbum()
     signal stackSelected()
     signal download()
+    signal upload()
     signal deleteSelected()
     signal moveToArchive()
     signal removeFromArchive()
@@ -406,6 +409,25 @@ Item {
                 onClicked: {
                     activeMenuType = ""
                     removeFromLockedFolder()
+                }
+            }
+
+            BackgroundItem {
+                width: parent.width
+                height: Theme.itemSizeSmall
+                visible: activeMenuType === "more" && selectionHasLocal
+                highlightedColor: Theme.rgba(Theme.highlightBackgroundColor, Theme.highlightBackgroundOpacity)
+
+                Label {
+                    anchors.centerIn: parent
+                    //% "Upload"
+                    text: qsTrId("selectionActionBar.upload")
+                    color: parent.highlighted ? Theme.highlightColor : Theme.primaryColor
+                }
+
+                onClicked: {
+                    activeMenuType = ""
+                    upload()
                 }
             }
 

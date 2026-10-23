@@ -3369,5 +3369,445 @@
         <source>No assets in this share</source>
         <translation>Keine Dateien in der Teilung</translation>
     </message>
+    <message id="app.clientCertExpired">
+        <location filename="../qml/harbour-immich.qml" line="61"/>
+        <source>Client certificate has expired. Update it to keep connecting.</source>
+        <translation>Das Client-Zertifikat ist abgelaufen. Aktualisieren Sie es, um die Verbindung beizubehalten.</translation>
+    </message>
+    <message id="app.clientCertExpiringSoon">
+        <location filename="../qml/harbour-immich.qml" line="63"/>
+        <source>Client certificate expires in %1 day(s).</source>
+        <translation>Das Client-Zertifikat läuft in %1 Tag(en) ab.</translation>
+    </message>
+    <message id="assetInfoPage.resolution">
+        <location filename="../qml/pages/AssetInfoPage.qml" line="71"/>
+        <source>Resolution</source>
+        <translation>Auflösung</translation>
+    </message>
+    <message id="assetInfoPage.size">
+        <location filename="../qml/pages/AssetInfoPage.qml" line="78"/>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message id="assetInfoPeek.dragForInfo">
+        <location filename="../qml/components/AssetInfoPeek.qml" line="126"/>
+        <source>Pull up for info</source>
+        <translation>Nach oben ziehen für Informationen</translation>
+    </message>
+    <message id="assetInfoPeek.releaseToViewInfo">
+        <location filename="../qml/components/AssetInfoPeek.qml" line="124"/>
+        <source>Release to view info</source>
+        <translation>Loslassen, um Informationen anzuzeigen</translation>
+    </message>
+    <message id="clientCertPage.allowSelfSigned">
+        <location filename="../qml/pages/ClientCertPage.qml" line="214"/>
+        <source>Allow self-signed server certificates</source>
+        <translation>Selbstsignierte Serverzertifikate zulassen</translation>
+    </message>
+    <message id="clientCertPage.allowSelfSignedInfo">
+        <location filename="../qml/pages/ClientCertPage.qml" line="216"/>
+        <source>Disables server certificate verification for the configured server only. Client certificate (mTLS) still applies.</source>
+        <translation>Deaktiviert die Serverzertifikatsprüfung nur für den konfigurierten Server. Das Client-Zertifikat (mTLS) gilt weiterhin.</translation>
+    </message>
+    <message id="clientCertPage.certificateFile">
+        <location filename="../qml/pages/ClientCertPage.qml" line="258"/>
+        <source>Certificate file</source>
+        <translation>Zertifikatsdatei</translation>
+    </message>
+    <message id="clientCertPage.chooseFile">
+        <location filename="../qml/pages/ClientCertPage.qml" line="260"/>
+        <source>Choose file</source>
+        <translation>Datei auswählen</translation>
+    </message>
+    <message id="clientCertPage.description">
+        <location filename="../qml/pages/ClientCertPage.qml" line="56"/>
+        <source>Import a PKCS#12 (.p12 or .pfx) certificate to authenticate this device to servers that require mutual TLS (mTLS). Changes take effect immediately.</source>
+        <translation>Importieren Sie ein PKCS#12-Zertifikat (.p12 oder .pfx), um dieses Gerät bei Servern zu authentifizieren, die gegenseitiges TLS (mTLS) erfordern. Änderungen wirken sofort.</translation>
+    </message>
+    <message id="clientCertPage.details">
+        <location filename="../qml/pages/ClientCertPage.qml" line="98"/>
+        <source>Certificate details</source>
+        <translation>Zertifikatdetails</translation>
+    </message>
+    <message id="clientCertPage.expiredWarning">
+        <location filename="../qml/pages/ClientCertPage.qml" line="88"/>
+        <source>The client certificate has expired. Import a new one to keep connecting.</source>
+        <translation>Das Client-Zertifikat ist abgelaufen. Importieren Sie ein neues, um die Verbindung beizubehalten.</translation>
+    </message>
+    <message id="clientCertPage.expiringSoonWarning">
+        <location filename="../qml/pages/ClientCertPage.qml" line="90"/>
+        <source>The client certificate is expiring soon. Consider importing a new one.</source>
+        <translation>Das Client-Zertifikat läuft bald ab. Erwägen Sie, ein neues zu importieren.</translation>
+    </message>
+    <message id="clientCertPage.import">
+        <location filename="../qml/pages/ClientCertPage.qml" line="190"/>
+        <source>Import certificate</source>
+        <translation>Zertifikat importieren</translation>
+    </message>
+    <message id="clientCertPage.importCertificate">
+        <location filename="../qml/pages/ClientCertPage.qml" line="252"/>
+        <source>Import certificate</source>
+        <translation>Zertifikat importieren</translation>
+    </message>
+    <message id="clientCertPage.issuer">
+        <location filename="../qml/pages/ClientCertPage.qml" line="112"/>
+        <source>Issuer</source>
+        <translation>Aussteller</translation>
+    </message>
+    <message id="clientCertPage.none">
+        <location filename="../qml/pages/ClientCertPage.qml" line="174"/>
+        <source>No client certificate configured</source>
+        <translation>Kein Client-Zertifikat konfiguriert</translation>
+    </message>
+    <message id="clientCertPage.password">
+        <location filename="../qml/pages/ClientCertPage.qml" line="268"/>
+        <source>Password</source>
+        <translation>Passwort</translation>
+    </message>
+    <message id="clientCertPage.passwordPlaceholder">
+        <location filename="../qml/pages/ClientCertPage.qml" line="270"/>
+        <source>Leave empty if the file has no password</source>
+        <translation>Leer lassen, wenn die Datei kein Passwort hat</translation>
+    </message>
+    <message id="clientCertPage.remove">
+        <location filename="../qml/pages/ClientCertPage.qml" line="198"/>
+        <source>Remove certificate</source>
+        <translation>Zertifikat entfernen</translation>
+    </message>
+    <message id="clientCertPage.replace">
+        <location filename="../qml/pages/ClientCertPage.qml" line="188"/>
+        <source>Replace certificate</source>
+        <translation>Zertifikat ersetzen</translation>
+    </message>
+    <message id="clientCertPage.selectFile">
+        <location filename="../qml/pages/ClientCertPage.qml" line="280"/>
+        <source>Select certificate</source>
+        <translation>Zertifikat auswählen</translation>
+    </message>
+    <message id="clientCertPage.serial">
+        <location filename="../qml/pages/ClientCertPage.qml" line="117"/>
+        <source>Serial number</source>
+        <translation>Seriennummer</translation>
+    </message>
+    <message id="clientCertPage.status">
+        <location filename="../qml/pages/ClientCertPage.qml" line="156"/>
+        <source>Status:</source>
+        <translation>Status:</translation>
+    </message>
+    <message id="clientCertPage.statusExpired">
+        <location filename="../qml/pages/ClientCertPage.qml" line="25"/>
+        <source>Expired</source>
+        <translation>Abgelaufen</translation>
+    </message>
+    <message id="clientCertPage.statusValid">
+        <location filename="../qml/pages/ClientCertPage.qml" line="32"/>
+        <source>Valid</source>
+        <translation>Gültig</translation>
+    </message>
+    <message id="clientCertPage.subject">
+        <location filename="../qml/pages/ClientCertPage.qml" line="107"/>
+        <source>Subject</source>
+        <translation>Subjekt</translation>
+    </message>
+    <message id="clientCertPage.title">
+        <location filename="../qml/pages/ClientCertPage.qml" line="46"/>
+        <source>Client Certificate</source>
+        <translation>Client-Zertifikat</translation>
+    </message>
+    <message id="clientCertPage.validFrom">
+        <location filename="../qml/pages/ClientCertPage.qml" line="122"/>
+        <source>Valid from</source>
+        <translation>Gültig ab</translation>
+    </message>
+    <message id="clientCertPage.validUntil">
+        <location filename="../qml/pages/ClientCertPage.qml" line="127"/>
+        <source>Valid until</source>
+        <translation>Gültig bis</translation>
+    </message>
+    <message id="filterBar.upcoming">
+        <location filename="../qml/components/MemoriesFilterBar.qml" line="55"/>
+        <source>Upcoming</source>
+        <translation>Bevorstehende</translation>
+    </message>
+    <message id="libraryPage.memories">
+        <location filename="../qml/pages/LibraryPage.qml" line="61"/>
+        <source>Memories</source>
+        <translation>Erinnerungen</translation>
+    </message>
+    <message id="memoriesPage.loading">
+        <location filename="../qml/pages/MemoriesPage.qml" line="210"/>
+        <source>Loading memories...</source>
+        <translation>Erinnerungen werden geladen…</translation>
+    </message>
+    <message id="memoriesPage.memories">
+        <location filename="../qml/pages/MemoriesPage.qml" line="82"/>
+        <source>Memories</source>
+        <translation>Erinnerungen</translation>
+    </message>
+    <message id="memoriesPage.memory">
+        <location filename="../qml/pages/MemoriesPage.qml" line="48"/>
+        <source>Memory</source>
+        <translation>Erinnerung</translation>
+    </message>
+    <message id="memoriesPage.noMemories">
+        <location filename="../qml/pages/MemoriesPage.qml" line="218"/>
+        <source>No memories yet</source>
+        <translation>Noch keine Erinnerungen</translation>
+    </message>
+    <message id="memoriesPage.thisYear">
+        <location filename="../qml/pages/MemoriesPage.qml" line="51"/>
+        <source>This year</source>
+        <translation>Dieses Jahr</translation>
+    </message>
+    <message id="memoriesPage.yearAgo">
+        <location filename="../qml/pages/MemoriesPage.qml" line="53"/>
+        <source>Last year</source>
+        <translation>Letztes Jahr</translation>
+    </message>
+    <message id="memoriesPage.yearsAgo">
+        <location filename="../qml/pages/MemoriesPage.qml" line="55"/>
+        <source>%1 years ago</source>
+        <translation>Vor %1 Jahren</translation>
+    </message>
+    <message id="notification.certificateImportFailed">
+        <location filename="../qml/pages/ClientCertPage.qml" line="298"/>
+        <source>Importing the certificate failed</source>
+        <translation>Der Import des Zertifikats ist fehlgeschlagen</translation>
+    </message>
+    <message id="notification.certificateImported">
+        <location filename="../qml/pages/ClientCertPage.qml" line="294"/>
+        <source>Certificate imported</source>
+        <translation>Zertifikat importiert</translation>
+    </message>
+    <message id="notification.clearingImageCache">
+        <location filename="../qml/pages/SettingsPage.qml" line="991"/>
+        <source>Clearing image cache...</source>
+        <translation>Bildcache wird geleert…</translation>
+    </message>
+    <message id="notification.imageCacheCleared">
+        <location filename="../qml/pages/SettingsPage.qml" line="994"/>
+        <source>Image cache cleared</source>
+        <translation>Bildcache geleert</translation>
+    </message>
+    <message id="notification.rebuildingCatalog">
+        <location filename="../qml/pages/SettingsPage.qml" line="836"/>
+        <source>Rebuilding catalog...</source>
+        <translation>Katalog wird neu aufgebaut…</translation>
+    </message>
+    <message id="notification.removingCertificate">
+        <location filename="../qml/pages/ClientCertPage.qml" line="201"/>
+        <source>Removing the certificate</source>
+        <translation>Zertifikat wird entfernt</translation>
+    </message>
+    <message id="placesPage.noPlacesMatch">
+        <location filename="../qml/pages/PlacesPage.qml" line="202"/>
+        <source>No places match</source>
+        <translation>Keine Orte entsprechen</translation>
+    </message>
+    <message id="pullDownMenu.clientCertificate">
+        <location filename="../qml/pages/ServerPage.qml" line="31"/>
+        <source>Client certificate</source>
+        <translation>Client-Zertifikat</translation>
+    </message>
+    <message id="settingsPage.catalog">
+        <location filename="../qml/pages/SettingsPage.qml" line="774"/>
+        <source>Catalog</source>
+        <translation>Katalog</translation>
+    </message>
+    <message id="settingsPage.clearImageCache">
+        <location filename="../qml/pages/SettingsPage.qml" line="987"/>
+        <source>Clear image cache</source>
+        <translation>Bildcache leeren</translation>
+    </message>
+    <message id="settingsPage.clientCertificate">
+        <location filename="../qml/pages/SettingsPage.qml" line="325"/>
+        <source>Client certificate</source>
+        <translation>Client-Zertifikat</translation>
+    </message>
+    <message id="settingsPage.clientCertificateConfigured">
+        <location filename="../qml/pages/SettingsPage.qml" line="334"/>
+        <source>Configured</source>
+        <translation>Konfiguriert</translation>
+    </message>
+    <message id="settingsPage.clientCertificateExpired">
+        <location filename="../qml/pages/SettingsPage.qml" line="330"/>
+        <source>Expired</source>
+        <translation>Abgelaufen</translation>
+    </message>
+    <message id="settingsPage.clientCertificateExpiringSoon">
+        <location filename="../qml/pages/SettingsPage.qml" line="332"/>
+        <source>Expiring soon</source>
+        <translation>Läuft bald ab</translation>
+    </message>
+    <message id="settingsPage.clientCertificateInfo">
+        <location filename="../qml/pages/SettingsPage.qml" line="337"/>
+        <source>Authenticate this device to servers that require mutual TLS (mTLS).</source>
+        <translation>Authentifizieren Sie dieses Gerät bei Servern, die gegenseitiges TLS (mTLS) erfordern.</translation>
+    </message>
+    <message id="settingsPage.clientCertificateNone">
+        <location filename="../qml/pages/SettingsPage.qml" line="328"/>
+        <source>None</source>
+        <translation>Keines</translation>
+    </message>
+    <message id="settingsPage.language">
+        <location filename="../qml/pages/SettingsPage.qml" line="284"/>
+        <source>Language</source>
+        <translation>Sprache</translation>
+    </message>
+    <message id="settingsPage.languageAutomatic">
+        <location filename="../qml/pages/SettingsPage.qml" line="301"/>
+        <source>Automatic (system)</source>
+        <translation>Automatisch (System)</translation>
+    </message>
+    <message id="settingsPage.languageInfo">
+        <location filename="../qml/pages/SettingsPage.qml" line="290"/>
+        <source>Application language. Automatic follows the system language. Changes will take effect after application restart.</source>
+        <translation>Anwendungssprache. Automatisch folgt der Systemsprache. Änderungen wirken sich nach einem Neustart der Anwendung aus.</translation>
+    </message>
+    <message id="settingsPage.motionPhotos">
+        <location filename="../qml/pages/SettingsPage.qml" line="158"/>
+        <source>Motion photos</source>
+        <translation>Bewegte Fotos</translation>
+    </message>
+    <message id="settingsPage.motionPhotosInfo">
+        <location filename="../qml/pages/SettingsPage.qml" line="160"/>
+        <source>Show an indicator on motion photos and allow playing their video part in the detail view.</source>
+        <translation>Zeigt einen Indikator bei bewegten Fotos und ermöglicht die Wiedergabe des Videoteils in der Detailansicht.</translation>
+    </message>
+    <message id="settingsPage.notSynced">
+        <location filename="../qml/pages/SettingsPage.qml" line="788"/>
+        <source>Not synced yet</source>
+        <translation>Noch nicht synchronisiert</translation>
+    </message>
+    <message id="settingsPage.rebuildCatalog">
+        <location filename="../qml/pages/SettingsPage.qml" line="831"/>
+        <source>Rebuild catalog</source>
+        <translation>Katalog neu aufbauen</translation>
+    </message>
+    <message id="settingsPage.security">
+        <location filename="../qml/pages/SettingsPage.qml" line="320"/>
+        <source>Security</source>
+        <translation>Sicherheit</translation>
+    </message>
+    <message id="settingsPage.selectedCountPosition">
+        <location filename="../qml/pages/SettingsPage.qml" line="239"/>
+        <source>Selected count button position</source>
+        <translation>Position der Auswahlzählschaltfläche</translation>
+    </message>
+    <message id="settingsPage.selectedCountPositionInfo">
+        <location filename="../qml/pages/SettingsPage.qml" line="241"/>
+        <source>Controls position of the button showing the number of selected assets. Tap it to clear the selection. It cannot share a position with scroll to top button.</source>
+        <translation>Bestimmt die Position der Schaltfläche, die die Anzahl der ausgewählten Elemente anzeigt. Tippen löscht die Auswahl. Sie kann die Position nicht mit der „Nach oben“-Schaltfläche teilen.</translation>
+    </message>
+    <message id="settingsPage.showDeviceMediaOnTimeline">
+        <location filename="../qml/pages/SettingsPage.qml" line="614"/>
+        <source>Show device media on timeline</source>
+        <translation>Gerätemedien in der Zeitleiste anzeigen</translation>
+    </message>
+    <message id="settingsPage.showDeviceMediaOnTimelineInfo">
+        <location filename="../qml/pages/SettingsPage.qml" line="616"/>
+        <source>Display photos and videos from watched folders that are not yet backed up in the timeline.</source>
+        <translation>Zeigt Fotos und Videos aus überwachten Ordnern, die noch nicht in der Zeitleiste gesichert wurden.</translation>
+    </message>
+    <message id="settingsPage.syncAlbums">
+        <location filename="../qml/pages/SettingsPage.qml" line="801"/>
+        <source>Albums</source>
+        <translation>Alben</translation>
+    </message>
+    <message id="settingsPage.syncAssets">
+        <location filename="../qml/pages/SettingsPage.qml" line="794"/>
+        <source>Assets</source>
+        <translation>Dateien</translation>
+    </message>
+    <message id="settingsPage.syncInProgress">
+        <location filename="../qml/pages/SettingsPage.qml" line="785"/>
+        <source>Sync in progress...</source>
+        <translation>Synchronisierung läuft…</translation>
+    </message>
+    <message id="settingsPage.syncLastTime">
+        <location filename="../qml/pages/SettingsPage.qml" line="779"/>
+        <source>Last synchronization</source>
+        <translation>Letzte Synchronisierung</translation>
+    </message>
+    <message id="settingsPage.syncLocalFiles">
+        <location filename="../qml/pages/SettingsPage.qml" line="815"/>
+        <source>Local files</source>
+        <translation>Lokale Dateien</translation>
+    </message>
+    <message id="settingsPage.syncNow">
+        <location filename="../qml/pages/SettingsPage.qml" line="823"/>
+        <source>Sync now</source>
+        <translation>Jetzt synchronisieren</translation>
+    </message>
+    <message id="settingsPage.syncPeople">
+        <location filename="../qml/pages/SettingsPage.qml" line="808"/>
+        <source>People</source>
+        <translation>Personen</translation>
+    </message>
+    <message id="settingsPage.videoAutoPlay">
+        <location filename="../qml/pages/SettingsPage.qml" line="135"/>
+        <source>Auto-play videos</source>
+        <translation>Automatische Videowiedergabe</translation>
+    </message>
+    <message id="settingsPage.videoAutoPlayInfo">
+        <location filename="../qml/pages/SettingsPage.qml" line="137"/>
+        <source>Start playing videos automatically when opened in the detail view.</source>
+        <translation>Startet die Videowiedergabe automatisch beim Öffnen in der Detailansicht.</translation>
+    </message>
+    <message id="settingsPage.videoAutoPlayWifiOnly">
+        <location filename="../qml/pages/SettingsPage.qml" line="146"/>
+        <source>Auto-play on Wi-Fi only</source>
+        <translation>Autoplay nur über WLAN</translation>
+    </message>
+    <message id="settingsPage.videoAutoPlayWifiOnlyInfo">
+        <location filename="../qml/pages/SettingsPage.qml" line="148"/>
+        <source>Auto-play streamed videos only when connected to Wi-Fi. Videos stored on the device are not affected.</source>
+        <translation>Spielt gestreamte Videos nur bei WLAN-Verbindung automatisch ab. Auf dem Gerät gespeicherte Videos sind nicht betroffen.</translation>
+    </message>
+    <message id="settingsPage.selectedCountPositionBottomCenter">
+        <location filename="../qml/pages/SettingsPage.qml" line="264"/>
+        <source>Bottom center</source>
+        <translation>Unten Mitte</translation>
+    </message>
+    <message id="settingsPage.selectedCountPositionBottomLeft">
+        <location filename="../qml/pages/SettingsPage.qml" line="259"/>
+        <source>Bottom left</source>
+        <translation>Unten links</translation>
+    </message>
+    <message id="settingsPage.selectedCountPositionBottomRight">
+        <location filename="../qml/pages/SettingsPage.qml" line="269"/>
+        <source>Bottom right</source>
+        <translation>Unten rechts</translation>
+    </message>
+    <message id="settingsPage.selectedCountPositionTopLeft">
+        <location filename="../qml/pages/SettingsPage.qml" line="251"/>
+        <source>Top left</source>
+        <translation>Oben links</translation>
+    </message>
+    <message id="settingsPage.selectedCountPositionTopRight">
+        <location filename="../qml/pages/SettingsPage.qml" line="255"/>
+        <source>Top right</source>
+        <translation>Oben rechts</translation>
+    </message>
+    <message id="timelinePage.syncing">
+        <location filename="../qml/pages/TimelinePage.qml" line="306"/>
+        <source>Synchronizing timeline...</source>
+        <translation>Zeitleiste wird synchronisiert…</translation>
+    </message>
+    <message id="notification.uploadingFile">
+        <location filename="../qml/pages/TimelinePage.qml" line="392"/>
+        <source>Uploading file</source>
+        <translation>Datei wird hochgeladen</translation>
+    </message>
+    <message id="notification.uploadingFiles">
+        <location filename="../qml/pages/TimelinePage.qml" line="394"/>
+        <source>Uploading %1 files</source>
+        <translation>%1 Dateien werden hochgeladen</translation>
+    </message>
+    <message id="selectionActionBar.upload">
+        <location filename="../qml/components/SelectionActionBar.qml" line="399"/>
+        <source>Upload</source>
+        <translation>Hochladen</translation>
+    </message>
 </context>
 </TS>
