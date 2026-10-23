@@ -3835,5 +3835,10 @@
         <source>Uploading %1 files</source>
         <translation>Laster opp %1 filer</translation>
     </message>
+    <message id="selectionActionBar.upload">
+        <location filename="../qml/components/SelectionActionBar.qml" line="399"/>
+        <source>Upload</source>
+        <translation>Last opp</translation>
+    </message>
 </context>
 </TS>

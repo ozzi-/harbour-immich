@@ -3804,5 +3804,10 @@
         <source>Uploading %1 files</source>
         <translation>%1 bestanden worden geupload</translation>
     </message>
+    <message id="selectionActionBar.upload">
+        <location filename="../qml/components/SelectionActionBar.qml" line="399"/>
+        <source>Upload</source>
+        <translation>Uploaden</translation>
+    </message>
 </context>
 </TS>

@@ -3835,5 +3835,10 @@
         <source>Uploading %1 files</source>
         <translation>Nahrávám %1 soubory</translation>
     </message>
+    <message id="selectionActionBar.upload">
+        <location filename="../qml/components/SelectionActionBar.qml" line="399"/>
+        <source>Upload</source>
+        <translation>Nahrát</translation>
+    </message>
 </context>
 </TS>
